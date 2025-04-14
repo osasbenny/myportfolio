@@ -1,0 +1,87 @@
+<!-- Update Navigation Section -->
+<nav class="fixed w-full bg-slate-900/90 backdrop-blur z-50 shadow-lg">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center h-16">
+            <!-- Logo -->
+            <a href="#home" class="text-emerald-400 font-bold text-xl">OSAGIE BERNARD EBHUOMHAN</a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="nav-item text-slate-300 hover:text-emerald-400 transition-colors">About</a>
+                <a href="#expertise"
+                    class="nav-item text-slate-300 hover:text-emerald-400 transition-colors">Expertise</a>
+                <a href="#projects"
+                    class="nav-item text-slate-300 hover:text-emerald-400 transition-colors">Projects</a>
+                <a href="#certifications"
+                    class="nav-item text-slate-300 hover:text-emerald-400 transition-colors">Certifications</a>
+                <a href="#connect" class="nav-item text-slate-300 hover:text-emerald-400 transition-colors">Connect</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button id="mobileMenu" class="md:hidden text-slate-300">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile Menu Overlay -->
+<div id="mobileNav" class="fixed inset-0 bg-slate-900/95 backdrop-blur z-50 hidden md:hidden">
+    <div class="relative h-full flex flex-col items-center justify-center space-y-8">
+        <button id="closeMenu" class="absolute top-6 right-6 text-slate-300">
+            <i class="fas fa-times text-2xl"></i>
+        </button>
+
+        <a href="#about" class="text-2xl text-slate-300 hover:text-emerald-400">About</a>
+        <a href="#expertise" class="text-2xl text-slate-300 hover:text-emerald-400">Expertise</a>
+        <a href="#projects" class="text-2xl text-slate-300 hover:text-emerald-400">Projects</a>
+        <a href="#certifications" class="text-2xl text-slate-300 hover:text-emerald-400">Certifications</a>
+        <a href="#connect" class="text-2xl text-slate-300 hover:text-emerald-400">Connect</a>
+    </div>
+</div>
+
+<script>
+    // Mobile Menu Toggle
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileNav = document.getElementById('mobileNav');
+    const closeMenu = document.getElementById('closeMenu');
+
+    mobileMenu.addEventListener('click', () => {
+        mobileNav.classList.remove('hidden');
+    });
+
+    closeMenu.addEventListener('click', () => {
+        mobileNav.classList.add('hidden');
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!mobileNav.contains(e.target) && !mobileMenu.contains(e.target)) {
+            mobileNav.classList.add('hidden');
+        }
+    });
+
+    // Close menu after clicking a link
+    document.querySelectorAll('#mobileNav a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileNav.classList.add('hidden');
+        });
+    });
+</script>
+
+<style>
+    /* Animation for mobile menu */
+    #mobileNav {
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #mobileNav.hidden {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    #mobileNav:not(.hidden) {
+        opacity: 1;
+        pointer-events: all;
+    }
+</style>
