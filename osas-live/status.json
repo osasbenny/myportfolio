@@ -1,0 +1,24 @@
+{
+  "generated_utc": "2026-10-10T06:36:42.279030+00:00",
+  "total": 485,
+  "seeded_favorites": 17,
+  "new_tv_by_category": {
+    "News & Current Affairs": 65,
+    "Movies": 65,
+    "Documentaries & History": 65,
+    "Music TV": 60,
+    "Science & Technology": 1,
+    "Sports": 40,
+    "Wildlife & Outdoors": 33,
+    "Classic Movies & TV": 36,
+    "TV Series": 35,
+    "Business & Financial News": 28,
+    "Education": 5,
+    "Weather TV": 0,
+    "Travel & Exploration": 0,
+    "Culture": 0,
+    "Entertainment": 0
+  },
+  "radio_added": 35,
+  "source": "iptv-org English/category playlists + Radio Browser"
+}
