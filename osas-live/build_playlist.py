@@ -133,15 +133,21 @@ def build() -> None:
         if item["id"]: seen_ids.add(item["id"])
         return True
     for item in seed:add(item)
-    cat_counts={}
+    candidates={}
+    cat_counts={label:0 for label,_,_ in CATEGORIES}
     for label,code,cap in CATEGORIES:
         matches=[x for x in category_feeds[code] if x["url"] in english_urls or (x["id"] and x["id"] in english_ids)]
         matches.sort(key=priority)
-        count=0
-        for item in matches:
-            if len(result)>=MAX_TV or count>=cap:break
-            if add(item,label):count+=1
-        cat_counts[label]=count
+        candidates[label]=matches
+    # Give later categories a fair chance before the overall TV cap is filled.
+    for label,code,cap in CATEGORIES:
+        for item in candidates[label]:
+            if cat_counts[label]>=min(8,cap) or len(result)>=MAX_TV:break
+            if add(item,label):cat_counts[label]+=1
+    for label,code,cap in CATEGORIES:
+        for item in candidates[label]:
+            if len(result)>=MAX_TV or cat_counts[label]>=cap:break
+            if add(item,label):cat_counts[label]+=1
     if len(result)<60:
         raise RuntimeError("Too few TV channels produced; preserving previous playlist")
     radios=radio(MAX_RADIO)
