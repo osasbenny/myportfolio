@@ -1,5 +1,5 @@
 #EXTM3U
-# OSAS LIVE | Updated 2026-10-11 11:25 UTC
+# OSAS LIVE | Updated 2026-10-18 09:39 UTC
 # Publicly indexed streams; geo restrictions, codec limitations, and availability vary.
 #EXTINF:-1 tvg-id="" group-title="News & Current Affairs",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
@@ -35,8 +35,8 @@ https://d726x48n2pd5h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="" group-title="Music TV - Classical & Orchestra",Stingray CMusic
 https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="bbcnews.uk@uk" group-title="News & Current Affairs",BBC News (1080p)
-https://xemzi.short.gy/1000015
+#EXTINF:-1 tvg-id="skynewsextra.au@sd" group-title="News & Current Affairs",Sky News Extra
+https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8
 #EXTINF:-1 tvg-id="bbcnews.uk@africa" group-title="News & Current Affairs",BBC News Africa (1080p)
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="skynewsextra3.au@sd" group-title="News & Current Affairs",Sky News Extra 3 (1080p)
@@ -86,7 +86,7 @@ http://103.185.24.134:3001/SONY-BBC/index.m3u8
 #EXTINF:-1 tvg-id="xiteclassiccountry.nl@sd" group-title="Music TV",XITE Classic Country (720p)
 https://jmp2.uk/plu-623b92a2ccefed0007b1db48.m3u8
 #EXTINF:-1 tvg-id="musicboxclassic.cz@sd" group-title="Music TV",Music Box Classic
-http://88.212.15.19/live/mb_classic/index.m3u8
+http://88.212.15.17/live/mb_classic/index.m3u8
 #EXTINF:-1 tvg-id="classica.us@sd" group-title="Music TV",Classica (720p)
 https://jmp2.uk/plu-5f779951372da90007fd45e8.m3u8
 #EXTINF:-1 tvg-id="joomusic.pk@sd" group-title="Music TV",JooMusic (720p)
@@ -99,6 +99,8 @@ https://30a-tv.com/music.m3u8
 https://channels.trace.plus/Traceprod/UK_FAST_hd/index.m3u8
 #EXTINF:-1 tvg-id="vevorb.us@sd" group-title="Music TV",Vevo R&B (1080p)
 https://d1hf773q57zx9s.cloudfront.net/Vevo_R_B.m3u8
+#EXTINF:-1 tvg-id="discoveryscience.in@sd" group-title="Science & Technology",Discovery Science (720p)
+https://drk6xq0vhn.gpcdn.net/live/discovery_science_abr/index.m3u8
 #EXTINF:-1 tvg-id="smithsonianchannelselects.us@sd" group-title="Science & Technology",Smithsonian Channel Selects (United States)
 https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8
 #EXTINF:-1 tvg-id="medibiztv.in@sd" group-title="Science & Technology",MediBizTV (720p)
@@ -177,12 +179,12 @@ https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlis
 https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 tvg-id="ndtvprofit.in@sd" group-title="Business & Financial News",NDTV Profit (1080p)
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
+#EXTINF:-1 tvg-id="cnbcasia.sg@hd" group-title="Business & Financial News",CNBC Asia HD (1080p)
+https://freem3u.xyz/api/live/play.m3u8?vid=9855
 #EXTINF:-1 tvg-id="cnbcmongolia.mn@sd" group-title="Business & Financial News",CNBC Mongolia (720p)
 https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
 #EXTINF:-1 tvg-id="entrepreneurtv.us@sd" group-title="Business & Financial News",EntrepreneurTV (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2506
-#EXTINF:-1 tvg-id="bloombergtv.us@plus" group-title="Business & Financial News",Bloomberg TV + (2160p)
-https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8
 #EXTINF:-1 tvg-id="classicartsshowcase.us@sd" group-title="Education",Classic Arts Showcase (720p)
 https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
 #EXTINF:-1 tvg-id="mcpsstv.us@sd" group-title="Education",MCPSS TV
@@ -201,6 +203,8 @@ https://reflect-channel36-la.cablecast.tv/live-3/live/stream-1/live.m3u8
 https://reflect-mcsb-vod.cablecast.tv/live-16/live/live.m3u8
 #EXTINF:-1 tvg-id="skynewsweather.uk@sd" group-title="Weather TV",Sky News Weather (720p)
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="skynewsweatherchannel.au@sd" group-title="Weather TV",Sky News Weather Channel
+https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8
 #EXTINF:-1 tvg-id="foxweather.us@sd" group-title="Weather TV",Fox Weather (720p)
 https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINF:-1 tvg-id="weathernation.us@sd" group-title="Weather TV",WeatherNation (1080p)
@@ -213,8 +217,6 @@ https://norcast-weather.streamology.live/api/v1/streams/c1b5b114698e1ad4687153c4
 https://jmp2.uk/plu-63da370e2e477400081cf8b6.m3u8
 #EXTINF:-1 tvg-id="theweatherchannel.us@sd" group-title="Weather TV",The Weather Channel (1080p)
 https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8
-#EXTINF:-1 tvg-id="weatherspy.au@sd" group-title="Weather TV",WeatherSpy (Australia) (720p)
-https://jukin-weatherspy-2-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="journy.us@sd" group-title="Travel & Exploration",Journy (720p)
 https://d3s3a5c7f101eb.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="dronetv.us@sd" group-title="Travel & Exploration",DroneTV (1080p)
@@ -265,8 +267,6 @@ https://onyx1.mofta1.cfd/bibi1/usergendxn09l2s6cek.m3u8
 https://jmp2.uk/plu-6036e7c385749f00075dbd3b.m3u8
 #EXTINF:-1 tvg-id="aljazeera.qa@englishhd" group-title="News & Current Affairs",Al Jazeera English HD (576p)
 http://stream.mcquack.net/131/index.m3u8
-#EXTINF:-1 tvg-id="bbcnews.uk@latinamerica" group-title="News & Current Affairs",BBC News Latin America (720p)
-http://138.121.15.230:9002/BBC-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="bbcnews.uk@northamerica" group-title="News & Current Affairs",BBC News North America (1080p)
 http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="anewztv.az@sd" group-title="News & Current Affairs",AnewZ TV
@@ -279,6 +279,8 @@ https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 #EXTINF:-1 tvg-id="tvpworld.pl@sd" group-title="News & Current Affairs",TVP World
 https://dash2.antik.sk/live/test_tvp_world/playlist.m3u8
+#EXTINF:-1 tvg-id="cnn.us@sd" group-title="News & Current Affairs",CNN (720p)
+https://tvsen6.aynaott.com/cnn/index.m3u8
 #EXTINF:-1 tvg-id="foryoutv.cm@sd" group-title="News & Current Affairs",For You TV
 https://stream.az-multimedia.com:3325/live/foryoutvlive.m3u8
 #EXTINF:-1 tvg-id="iranpress.ir@sd" group-title="News & Current Affairs",Iran Press
@@ -293,8 +295,6 @@ https://6prlive.akamaized.net/hls/live/2033806/6PR/index.m3u8
 https://live20.bozztv.com/dvrfl06/astv/astv-channel24africa/index.m3u8
 #EXTINF:-1 tvg-id="channelstv.ng@sd" group-title="News & Current Affairs",Channels TV
 https://cs2.push2stream.com/CHANNELSTV-DVR/playlist.m3u8
-#EXTINF:-1 tvg-id="cnn.us@sd" group-title="News & Current Affairs",CNN (1080p)
-https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="eacnewstv.kh@sd" group-title="News & Current Affairs",EAC News TV
 https://live.eac-news.com/LiveApp/streams/eacnews.m3u8
 #EXTINF:-1 tvg-id="sccurrents.us@sd" group-title="News & Current Affairs",SC Currents
@@ -311,6 +311,8 @@ https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8
 https://2-fss-2.streamhoster.com/pl_118/204972-1954106-1/playlist.m3u8
 #EXTINF:-1 tvg-id="ln247.ng@sd" group-title="News & Current Affairs",LN247 (1080p)
 https://go5lmb6oyawb-hls-live.5centscdn.com/station/3dfd3752af3d7aec5c53992c2da3a316.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="msnow.us@sd" group-title="News & Current Affairs",MS NOW (432p)
+https://tvsen6.aynaott.com/msnbc/index.m3u8
 #EXTINF:-1 tvg-id="newsy.us@sd" group-title="News & Current Affairs",Newsy (1080p)
 https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8
 #EXTINF:-1 tvg-id="ln24sa.za@sd" group-title="News & Current Affairs",LN24SA (1080p)
@@ -553,8 +555,12 @@ https://jmp2.uk/plu-62e92a58f3e4290007290c96.m3u8
 https://jmp2.uk/plu-62e9289f8d467f0007fbc701.m3u8
 #EXTINF:-1 tvg-id="smithsonianchannelselects.se@dk" group-title="Documentaries & History",Smithsonian Channel Selects (Sweden) DK
 https://jmp2.uk/plu-61fb988e032c0100077d5252.m3u8
+#EXTINF:-1 tvg-id="history2.pl@sd" group-title="Documentaries & History",History 2 (1080p)
+http://57.128.231.171:8080/247/index.m3u8
 #EXTINF:-1 tvg-id="historytv18.in@sd" group-title="Documentaries & History",History TV18 (576p)
 http://103.151.60.162:2122/play/a00y/index.m3u8?hls
+#EXTINF:-1 tvg-id="history.pl@sd" group-title="Documentaries & History",History (Poland) (1080p)
+http://57.128.231.171:8080/240/index.m3u8
 #EXTINF:-1 tvg-id="history.us@east" group-title="Documentaries & History",History (United States) (720p)
 http://212.5.144.156:8080/history/index.m3u8
 #EXTINF:-1 tvg-id="viasatnature.se@sd" group-title="Documentaries & History",Viasat Nature (Sweden) [Not 24/7]
@@ -601,10 +607,6 @@ https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg
 https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mgr91yrk4pehy/playlist.m3u8
 #EXTINF:-1 tvg-id="getfactual.us@uk" group-title="Documentaries & History",Get.factual (720p)
 https://d1nhni5l2n8hjt.cloudfront.net/gf.m3u8
-#EXTINF:-1 tvg-id="lawcrime.us@sd" group-title="Documentaries & History",Law & Crime (720p)
-https://a-cdn.klowdtv.com/live3/law_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="totalcrime.ca@ca" group-title="Documentaries & History",Total Crime (1080p)
-https://aegis-cloudfront-1.tubi.video/b062c287-a170-47df-99e4-f5dcd441ee59/playlist.m3u8
 #EXTINF:-1 tvg-id="vevo70s.us@sd" group-title="Music TV",Vevo '70s (1080p)
 https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="vevo80s.us@sd" group-title="Music TV",Vevo '80s (1080p)
@@ -672,11 +674,11 @@ https://hls.vantagetv.co.uk/vmusicuk_stream/index.m3u8
 #EXTINF:-1 tvg-id="tracegospel.fr@nigeriaandeastafrica" group-title="Music TV",Trace Gospel Nigeria and East Africa (1080p)
 https://channels.trace.plus/Traceprod/GOSPEL_ROA_hd/index.m3u8
 #EXTINF:-1 tvg-id="musicboxhits.cz@sd" group-title="Music TV",Music Box Hits
-http://88.212.15.19/live/mb_hits/index.m3u8
+http://88.212.15.17/live/mb_hits/index.m3u8
 #EXTINF:-1 tvg-id="musicboxsexy.cz@sd" group-title="Music TV",Music Box Sexy
-http://88.212.15.19/live/mb_sexy/index.m3u8
+http://88.212.15.17/live/mb_sexy/index.m3u8
 #EXTINF:-1 tvg-id="musicboxdance.cz@sd" group-title="Music TV",Music Box Dance
-http://88.212.15.19/live/mb_dance/index.m3u8
+http://88.212.15.17/live/mb_dance/index.m3u8
 #EXTINF:-1 tvg-id="amusicchannel.ng@sd" group-title="Music TV",AMusic Channel (720p)
 http://mn-nl.mncdn.com/amusictv/amusicsrt.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="musicbox80s.cz@sd" group-title="Music TV",Music Box 80s (1080p)
@@ -747,6 +749,8 @@ https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247
 #EXTINF:-1 tvg-id="fcklovinderne.se@dk" group-title="Sports",FCK Lovinderne
 https://jmp2.uk/plu-68ac5403de4a734954b5ab75.m3u8
+#EXTINF:-1 tvg-id="nhlantenaplay.ro@sd" group-title="Sports",NHL AntenaPlay
+https://live4dai.antenaplay.ro/live2_sdi03/live2_sdi03_600k.m3u8
 #EXTINF:-1 tvg-id="pflmma.us@sd" group-title="Sports",PFL MMA (720p)
 https://jmp2.uk/plu-64f6180130ab3300083d896b.m3u8
 #EXTINF:-1 tvg-id="ssport.tr@sd" group-title="Sports",S Sport (720p)
@@ -759,6 +763,8 @@ https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_r
 https://d265y4sk8257lt.cloudfront.net/nh.m3u8
 #EXTINF:-1 tvg-id="ddsports.in@hd" group-title="Sports",DD Sports (720p)
 https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
+#EXTINF:-1 tvg-id="eurosport.in@sd" group-title="Sports",Eurosport (720p)
+https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
 #EXTINF:-1 tvg-id="overtime.us@sd" group-title="Sports",Overtime (1080p)
 https://d1a8aq6t30gkqj.cloudfront.net/v1/amc_overtime_1/samsungheadend_us/latest/main/hls/playlist_hd.m3u8
 #EXTINF:-1 tvg-id="pgatour.us@sd" group-title="Sports",PGA Tour (1080p)
@@ -769,10 +775,6 @@ https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8
 https://corestream.siteyaptim.live/s-sport2/index.m3u8
 #EXTINF:-1 tvg-id="slopestv.us@sd" group-title="Sports",Slopes TV (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2241
-#EXTINF:-1 tvg-id="tvsturbo.us@sd" group-title="Sports",TVS Turbo (360p)
-https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
-#EXTINF:-1 tvg-id="unbeaten.us@sd" group-title="Sports",Unbeaten (1080p)
-https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
 #EXTINF:-1 tvg-id="introuble.nl@sd" group-title="Wildlife & Outdoors",InTrouble (1080p)
 https://amg00861-amg00861c6-stirr-us-8229.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="pursuitup.us@sd" group-title="Wildlife & Outdoors",PursuitUP (1080p)
@@ -809,6 +811,8 @@ https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
 https://iptv.peer.biz/live/peertv-en.m3u8
 #EXTINF:-1 tvg-id="30adarcizzleoffshore.us@sd" group-title="Wildlife & Outdoors",30A Darcizzle Offshore (720p)
 https://30a-tv.com/darcizzle.m3u8
+#EXTINF:-1 tvg-id="outdoorchannel.us@vietnam" group-title="Wildlife & Outdoors",Outdoor Channel Vietnam (1080p)
+https://freem3u.xyz/api/live/play.m3u8?vid=216
 #EXTINF:-1 tvg-id="revnaction.us@sd" group-title="Wildlife & Outdoors",REV'N Action (720p) [Geo-blocked]
 https://freecast-lukentvlive.vgcdn.net/out/v1/a4f31f297fc5440f814bd2cffd77e689/index.m3u8
 #EXTINF:-1 tvg-id="swamijitvamerican.at@sd" group-title="Wildlife & Outdoors",Swamiji TV American (1080p) [Not 24/7]
@@ -897,10 +901,6 @@ https://bbc-classicdrwho-1-us.roku.wurl.tv/playlist.m3u8
 https://jmp2.uk/plu-61c095861782bd000780e0ba.m3u8
 #EXTINF:-1 tvg-id="plutotvaction.se@no" group-title="TV Series",Pluto TV Action (Sweden) NO
 https://jmp2.uk/plu-61c1e270489a9c000874d209.m3u8
-#EXTINF:-1 tvg-id="plutotvhorror.se@dk" group-title="TV Series",Pluto TV Horror (Sweden) DK
-https://jmp2.uk/plu-63a1c9790cc44a0007dc8857.m3u8
-#EXTINF:-1 tvg-id="plutotvhorror.se@no" group-title="TV Series",Pluto TV Horror (Sweden) NO
-https://jmp2.uk/plu-63a19cb7847a090007f230d7.m3u8
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",Classic Vinyl HD
 https://icecast.walmradio.com:8443/classic
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",Adroit Jazz Underground
@@ -924,25 +924,25 @@ https://radiopanther.radiolebowski.com/play
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",Classic Vinyl HD Opus
 https://icecast.walmradio.com:8443/classic_opus
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",SomaFM Groove Salad (128k MP3)
-https://ice6.somafm.com/groovesalad-128-mp3
+https://ice5.somafm.com/groovesalad-128-mp3
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",Heart 80s
 https://media-ssl.musicradio.com/Heart80sMP3
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",SomaFM Secret Agent (128k MP3)
 https://ice5.somafm.com/secretagent-128-mp3
+#EXTINF:-1 tvg-id="" group-title="English Internet Radio",181.FM - The Beat (HipHop/R&B)
+https://listen.181fm.com/181-beat_128k.mp3
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",SomaFM Underground 80s (128k MP3)
-https://ice5.somafm.com/u80s-128-mp3
+https://ice6.somafm.com/u80s-128-mp3
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",SomaFM Space Station Soma (128k AAC)
-https://ice5.somafm.com/spacestation-128-aac
+https://ice6.somafm.com/spacestation-128-aac
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",SomaFM PopTron (128k MP3)
-https://ice6.somafm.com/poptron-128-mp3
+https://ice5.somafm.com/poptron-128-mp3
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",TMM 1
 https://listen-msmn.sharp-stream.com/nme1.mp3
-#EXTINF:-1 tvg-id="" group-title="English Internet Radio",SomaFM Indie Pop Rocks! (128k AAC)
-https://ice2.somafm.com/indiepop-128-aac
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",WALM - Old Time Radio Opus
 https://icecast.walmradio.com:8443/otr_opus
-#EXTINF:-1 tvg-id="" group-title="English Internet Radio",181.FM - Highway 181
-https://listen.181fm.com/181-highway_128k.mp3
+#EXTINF:-1 tvg-id="" group-title="English Internet Radio",SomaFM Indie Pop Rocks! (128k AAC)
+https://ice6.somafm.com/indiepop-128-aac
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",SomaFM Left Coast 70s (320k MP3)
 https://ice2.somafm.com/seventies-320-mp3
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",Heart 70s
@@ -964,7 +964,7 @@ https://media-ssl.musicradio.com/HeartDanceMP3
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",Heart 90s
 https://media-ssl.musicradio.com/Heart90sMP3
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",SomaFM Lush (128k MP3)
-https://ice6.somafm.com/lush-128-mp3
+https://ice2.somafm.com/lush-128-mp3
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",TMM 2
 https://listen-msmn.sharp-stream.com/nme2.mp3
 #EXTINF:-1 tvg-id="" group-title="English Internet Radio",Fox News Radio
